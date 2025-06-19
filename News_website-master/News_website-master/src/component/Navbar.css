@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+  .menus{
+      justify-content: center;
+      gap: 1rem;
+  }
+  .navbtn{
+      /* border: 2px solid black; */
+      padding:0 0.7rem ;
+      /* justify-content: center; */
+  }
+  .navbtn_parent{
+      gap: 0rem;
+      /* border: 2px solid black; */
+  }
+  .icons{
+      gap: 0.4rem;
+      padding:0 0.4rem;
+  }
+  .fauser{
+      padding: 0 0.5rem;
+  }
+  .social_icons{
+    display: none;
+  }
+}
+.navbtn button:hover + div {
+    border: 2px solid gray;
+  }
+  .line{
+    border-width: 2px;
+  border-color: black;
+  width: 2rem;
+  transition: border-color 0.3s ease, transform 0.3s ease; /* Add transition effect for border color and transform */
+  transform: translateX(0);
+  }
+  .line:hover{
+    transform: translateX(20px);
+  }

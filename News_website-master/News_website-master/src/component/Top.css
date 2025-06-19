@@ -1,0 +1,11 @@
+@media (max-width: 1274px) {
+    .wrapapply{
+        flex-wrap: wrap;   
+    }
+    .changewidth{
+        width: 100vw;
+    }
+    .changewidth2{
+        width: 35%;
+    }
+}
